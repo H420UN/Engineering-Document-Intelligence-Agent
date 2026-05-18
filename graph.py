@@ -21,13 +21,6 @@ THE AGENT LOOP (ReAct pattern):
   │
   └──────────────────────────────────────────────┘
 
-INTERVIEW TALKING POINT:
-  "LangGraph gives me explicit control over the agent loop that
-   LangChain AgentExecutor abstracts away. I can add conditional
-   branching, parallel nodes, human-in-the-loop checkpoints, and
-   retry logic at any edge. For WSP use cases I'd add a human
-   approval node before the report is finalised — a chartered
-   engineer reviews the AI output before it leaves the system."
 """
 
 from typing import Annotated, Sequence
