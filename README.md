@@ -116,7 +116,7 @@ Uses `AzureChatOpenAI` from `langchain-openai`, pointing to a GPT-4o deployment 
 
 ### Step 1 — Clone the repository
 ```bash
-git clone https://github.com/YOUR-GITHUB-USERNAME/engineering-intelligence-agent.git
+git clone https://github.com/H420UN/engineering-intelligence-agent.git
 cd engineering-intelligence-agent
 ```
 
