@@ -1,4 +1,4 @@
-# 🏗️ WSP Engineering Intelligence Agent
+#  Engineering Intelligence Agent
 ### Agentic AI for Engineering Document Analysis & Reporting
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python)](https://python.org)
