@@ -23,7 +23,7 @@ PRODUCTION UPGRADE PATH:
 
 INTERVIEW TALKING POINT:
   "This prototype uses keyword search to demonstrate the RAG pattern
-   without requiring Azure AI Search. In production at WSP, I'd index
+   without requiring Azure AI Search. In production, I'd index
    engineering standards using Azure OpenAI embeddings and perform
    hybrid search — combining keyword BM25 with semantic vector search
    for maximum recall and precision."
