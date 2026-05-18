@@ -1,7 +1,7 @@
 """
 main.py
 ───────
-Entry point for the WSP Engineering Intelligence Agent.
+Entry point for the Engineering Intelligence Agent.
 
 HOW TO RUN:
   1. Copy .env.example → .env and fill in your Azure credentials
@@ -115,7 +115,7 @@ def run_agent(query: str, project_name: str = "Engineering Assessment") -> str:
         The agent's final response string
     """
     print("\n" + "═"*62)
-    print("  WSP ENGINEERING INTELLIGENCE AGENT")
+    print(" ENGINEERING INTELLIGENCE AGENT")
     print("  Powered by Azure OpenAI + LangGraph")
     print("═"*62)
     print(f"\n  PROJECT: {project_name}")
@@ -168,7 +168,7 @@ def _save_output(project_name: str, query: str, response: str):
     filename = output_dir / f"{timestamp}_{safe_name}.txt"
 
     with open(filename, "w", encoding="utf-8") as f:
-        f.write(f"WSP Engineering Intelligence Agent — Output\n")
+        f.write(f"Engineering Intelligence Agent — Output\n")
         f.write(f"{'='*60}\n")
         f.write(f"Project:   {project_name}\n")
         f.write(f"Timestamp: {datetime.now().strftime('%d %B %Y %H:%M UTC')}\n")
@@ -183,7 +183,7 @@ def _save_output(project_name: str, query: str, response: str):
 def interactive_mode():
     """Run the agent in interactive menu mode."""
     print("\n" + "═"*62)
-    print("  WSP ENGINEERING INTELLIGENCE AGENT")
+    print("  ENGINEERING INTELLIGENCE AGENT")
     print("  SELECT A DEMO OR ENTER YOUR OWN QUERY")
     print("═"*62)
 
@@ -214,7 +214,7 @@ def interactive_mode():
 # ─────────────────────────────────────────────────────────────────────────
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
-        description="WSP Engineering Intelligence Agent"
+        description=" Engineering Intelligence Agent"
     )
     parser.add_argument(
         "--query", "-q",
