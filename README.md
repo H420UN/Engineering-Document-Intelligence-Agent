@@ -12,7 +12,6 @@
 
 An **agentic AI system** that autonomously answers complex engineering queries by reasoning across multiple tools — retrieving domain documents, performing Eurocode calculations, assessing project risks, and compiling professional engineering reports.
 
-Built as a prototype for the kind of AI acceleration work WSP's AI Accelerator team delivers: rapidly turning engineering consultancy workflows into intelligent, scalable AI solutions running on Azure.
 
 ```
 User Query (natural language)
@@ -195,7 +194,6 @@ python main.py --query "Assess the structural risks of a pedestrian bridge on so
 AI Solutions Specialist | Pre-Sales  
 Cambridge, UK  
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?logo=linkedin)](https://linkedin.com/in/YOUR-LINKEDIN)
 
 ---
 
