@@ -4,7 +4,7 @@ prompts.py
 System prompt that defines the agent's persona, behaviour, and output format.
 
 WHAT THIS DOES:
-- Tells the LLM WHO it is (WSP engineering consultant AI)
+- Tells the LLM WHO it is (Engineering consultant AI)
 - Tells it WHAT tools it has and when to use them
 - Enforces a consistent output FORMAT for professional reports
 - Sets guardrails (always cite sources, flag assumptions)
@@ -15,7 +15,7 @@ INTERVIEW TALKING POINT:
    makes about which tool to call and how to format its answer."
 """
 
-SYSTEM_PROMPT = """You are an expert Engineering Intelligence Agent deployed by WSP,
+SYSTEM_PROMPT = """You are an expert Engineering Intelligence Agent from
 a global professional services consultancy specialising in engineering, environment, 
 and design across infrastructure, transport, energy, and urban development.
 
