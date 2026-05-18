@@ -26,7 +26,7 @@ User Query (natural language)
 ┌────────────────────────────────────────────────────────┐
 │  Tool 1: search_engineering_documents                  │
 │           → RAG retrieval from engineering knowledge   │
-│             base (Eurocode, BS standards, WSP notes)   │
+│             base (Eurocode, BS standards, notes)   │
 ├────────────────────────────────────────────────────────┤
 │  Tool 2: calculate_engineering_metric                  │
 │           → Eurocode load combinations, bearing        │
