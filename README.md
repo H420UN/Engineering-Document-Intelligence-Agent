@@ -1,4 +1,4 @@
-# 🏗️ WSP Engineering Intelligence Agent
+# Engineering Intelligence Agent
 ### Agentic AI for Engineering Document Analysis & Reporting
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python)](https://python.org)
@@ -12,7 +12,6 @@
 
 An **agentic AI system** that autonomously answers complex engineering queries by reasoning across multiple tools — retrieving domain documents, performing Eurocode calculations, assessing project risks, and compiling professional engineering reports.
 
-Built as a prototype for the kind of AI acceleration work WSP's AI Accelerator team delivers: rapidly turning engineering consultancy workflows into intelligent, scalable AI solutions running on Azure.
 
 ```
 User Query (natural language)
@@ -27,7 +26,7 @@ User Query (natural language)
 ┌────────────────────────────────────────────────────────┐
 │  Tool 1: search_engineering_documents                  │
 │           → RAG retrieval from engineering knowledge   │
-│             base (Eurocode, BS standards, WSP notes)   │
+│             base (Eurocode, BS standards, notes)   │
 ├────────────────────────────────────────────────────────┤
 │  Tool 2: calculate_engineering_metric                  │
 │           → Eurocode load combinations, bearing        │
@@ -38,7 +37,7 @@ User Query (natural language)
 │             and recommended mitigations                │
 ├────────────────────────────────────────────────────────┤
 │  Tool 4: generate_structured_report                    │
-│           → Formal WSP-format engineering report       │
+│           → Formal format engineering report       │
 └────────────────────────────────────────────────────────┘
         │
         ▼
